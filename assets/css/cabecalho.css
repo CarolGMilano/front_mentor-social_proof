@@ -1,0 +1,18 @@
+.cabecalho {
+    margin: 4rem 2rem 0 2rem;
+    text-align: center;
+}
+
+.cabecalho__titulo {
+    color: var(--roxo);
+    font-weight: bolder;
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
+
+.cabecalho__descricao {
+    color: var(--roxo_claro);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5rem;
+}

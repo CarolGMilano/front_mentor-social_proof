@@ -1,0 +1,107 @@
+@media screen and (min-width: 700px) {
+    body {
+        font-family: var(--fonte_LeagueSpartan);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+
+        background: url("../img/bg-pattern-top-desktop.svg") no-repeat top left, url("../img/bg-pattern-bottom-desktop.svg") no-repeat bottom right;
+    }
+
+    .cabecalho__desktop {
+        display: flex;
+        padding-bottom: 3rem;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .cabecalho {
+        margin: 0;
+        text-align: start;
+        width: 500px;
+    }
+
+    .cabecalho__titulo {
+        font-size: 60px;
+        margin-bottom: 2rem;
+    }
+
+    .cabecalho__descricao {
+        font-size: 20px;
+    }
+
+    .corpo__avaliacoes {
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        height: min-content;
+        width: 500px;
+    }
+
+    .avaliacao__lista {
+        row-gap: 1rem;
+    }
+
+    .avaliacoes__item {
+        flex-direction: row;
+        column-gap: 1.5rem;
+        width: 400px;
+        transition: .4s;
+    }
+
+    .avaliacoes__item:hover {
+        background-color: var(--branco_arroxado_hover);
+    }
+
+    .item__descricao {
+        font-size: 18px;
+    }
+
+    .avaliacao__recuo1 {
+        align-self: flex-start;
+    }
+
+    .avaliacao__recuo2 {
+        align-self: center;
+    }
+
+    .avaliacao__recuo3 {
+        align-self: flex-end;
+    }
+
+    .corpo__comentarios {
+        margin: 0;
+    }
+
+    .comentarios__lista {
+        flex-direction: row;
+        column-gap: 1.5rem;
+        height: 250px;
+    }
+
+    .comentarios__item {
+        width: 320px;
+        height: 215px;
+        transition: .5s;
+    }
+
+    .comentarios__item:hover {
+        width: 330px;
+        height: 225px;
+    }
+
+    .comentario__recuo1 {
+        align-self: flex-start;
+    }
+
+    .comentario__recuo2 {
+        align-self: center;
+    }
+
+    .comentario__recuo3 {
+        align-self: flex-end;
+    }
+}

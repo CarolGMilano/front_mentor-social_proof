@@ -1,0 +1,39 @@
+.corpo__avaliacoes {
+    margin: 1.5rem;
+}
+
+.avaliacao__lista {
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+}
+
+.avaliacoes__item {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--branco_arroxado);
+    padding: 1rem;
+    border-radius: 6px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    row-gap: .6rem;
+}
+
+.item__container{
+    display: flex;
+    column-gap: .4rem;
+}
+
+.item__estrela {
+    background: url("../img/icon-star.svg") no-repeat;
+    min-width: 17px;
+    min-height: 17px;
+}
+
+.item__descricao{
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--roxo);
+}
+

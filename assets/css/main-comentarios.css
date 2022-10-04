@@ -1,0 +1,73 @@
+.corpo__comentarios {
+    margin: 1.5rem;
+}
+
+.comentarios__lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: .5rem;
+}
+
+.comentarios__item {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--roxo);
+    padding: 2.5rem 1.5rem;
+    border-radius: 6px;
+    row-gap: 1.2rem;
+}
+
+.item__cabecalho {
+    display: flex;
+    column-gap: 1rem;
+}
+
+.comentario__imagem {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%; 
+}
+
+.item__cabecalho--imagem1 {
+    background: url("../img/image-colton.jpg") no-repeat;
+    background-size: contain;
+}
+
+.item__cabecalho--imagem2 {
+    background: url("../img/image-irene.jpg") no-repeat;
+    background-size: contain;
+}
+
+.item__cabecalho--imagem3 {
+    background: url("../img/image-anne.jpg") no-repeat;
+    background-size: contain;
+}
+
+.item__cabecalho--titulos {
+    display: flex;
+    flex-direction: column;
+    row-gap: .3rem;
+   justify-content: center;
+}
+
+.item__headerTitulos--nome {
+    color: var(--branco);
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.item__cabecalhoTitulos--verificado {
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--rosa);
+}
+
+.item__cabecalho--descricao {
+    color: var(--branco_arroxado);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2rem;
+}
+

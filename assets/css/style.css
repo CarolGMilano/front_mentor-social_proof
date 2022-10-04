@@ -1,0 +1,22 @@
+@import url('cabecalho.css');
+@import url('main-avaliacoes.css');
+@import url('main-comentarios.css');
+@import url('responsividade.css');
+
+:root {
+    --branco: hsl(0, 0%, 100%);
+    --branco_arroxado: hsl(300, 24%, 96%);
+    --branco_arroxado_hover: hsl(300, 35%, 94%);
+    --rosa: hsl(333, 80%, 67%);
+    --roxo: hsl(300, 43%, 22%);
+    --roxo_claro: hsl(303, 10%, 53%);
+
+    --fonte_LeagueSpartan: 'League Spartan', sans-serif;
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        font-family: var(--fonte_LeagueSpartan);
+        background: url("../img/bg-pattern-top-mobile.svg") no-repeat top left, url("../img/bg-pattern-bottom-mobile.svg") no-repeat bottom right, var(--branco);
+    } 
+}
